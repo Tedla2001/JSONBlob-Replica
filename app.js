@@ -3,8 +3,8 @@ const server=http.createServer().listen(8080);
 // const process=require('./lib/process.js');
 const POST=require('./lib/post.js');
 const DELETE=require('./lib/delete.js');
-const DELETE=require('./lib/put.js');
-
+const PUT=require('./lib/put.js');
+const GET=require('./lib/get.js');
 
 server.on('request',async(req,res)=>{
 	switch(req.method){

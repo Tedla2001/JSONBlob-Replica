@@ -1,5 +1,5 @@
 ### GET REQUEST
-GET http://localhost:8080
+GET http://localhost:8080/api/1680122845399
 
 
 ### POST REQUEST
@@ -11,7 +11,7 @@ content-type: application/json
 
 
 ### PUT REQUEST
-PUT http://localhost:8080
+PUT http://localhost:8080/api
 content-type: application/json
 
 {

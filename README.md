@@ -24,12 +24,18 @@ This will start the server at http://localhost:8000/api.
 
 The following endpoints are available:
 ```
-GET /: Returns a welcome message.
 GET /api/:id: Returns the JSON data stored with the specified ID.
 POST /api: Stores the JSON data in the request body and returns the ID.
 PUT /api/:id: Updates the JSON data stored with the specified ID.
 DELETE /api/:id: Deletes the JSON data stored with the specified ID.
 ```
+
+### Team
+
+- [Tewodros Amare](https://github.com/teddygizachew)
+- [Tedla Tafari](https://github.com/Tedla2001)
+- [Lulseged Admasu](https://github.com/lul-g)
+
 
 ## License
 

@@ -3,6 +3,7 @@ const server=http.createServer().listen(8080);
 // const process=require('./lib/process.js');
 const POST=require('./lib/post.js');
 const DELETE=require('./lib/delete.js');
+const DELETE=require('./lib/put.js');
 
 
 server.on('request',async(req,res)=>{
@@ -21,11 +22,3 @@ server.on('request',async(req,res)=>{
 			break;
 	}
 });
-
-  
-
-  
-  
-  
-
-

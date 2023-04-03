@@ -1,22 +1,37 @@
 ### GET REQUEST
-GET http://localhost:8080/api/1680122845399
+GET http://localhost:8080/api/1680486694773
 
 
 ### POST REQUEST
 POST http://localhost:8080/api
 content-type: application/json
 
-{"Name": "Teddy",
-"Number": 10}
+{
+	"String": "Lulseged Admasu",
+	"Int": 10,
+	"Obj": {
+		"name": "text", 
+		"color": "black",
+		"font": ["open sans", "16px", "500"]
+	},
+	"Array": [0, 1 , "string", 3]
+}
 
 
 ### PUT REQUEST
-PUT http://localhost:8080/api
+PUT http://localhost:8080/api/1680486694773
 content-type: application/json
 
 {
-	"hello":{"world"}
+	"String": "Lulseged Admasu",
+	"Int": 15,
+	"Obj": {
+		"type": "person", 
+		"name": "lul",
+		"talent": ["coding", "web design", "academia"]
+	},
+	"Array": [5, 1 , "string_v.2.0", 3]
 }
 
 ### DELETE REQUEST
-DELETE http://localhost:8080/api/1680410292927
+DELETE http://localhost:8080/api/1680486694773

@@ -7,14 +7,8 @@ POST http://localhost:8080/api
 content-type: application/json
 
 {
-	"String": "Lulseged Admasu",
-	"Int": 10,
-	"Obj": {
-		"name": "text", 
-		"color": "black",
-		"font": ["open sans", "16px", "500"]
-	},
-	"Array": [0, 1 , "string", 3]
+	"Name": "Tedla Tafari",
+	"Age": 22
 }
 
 
@@ -34,4 +28,4 @@ content-type: application/json
 }
 
 ### DELETE REQUEST
-DELETE http://localhost:8080/api/1680486694773
+DELETE http://localhost:8080/api/644ad6d891bbc1951a04109d

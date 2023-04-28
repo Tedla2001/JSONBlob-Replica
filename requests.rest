@@ -7,11 +7,11 @@ POST http://localhost:8080/api
 content-type: application/json
 
 {
-	"String": "Lulseged Admasu",
-	"Int": 10,
+	"String": "Lulseged Girma Admasu",
+	"Int": 12,
 	"Obj": {
-		"name": "text", 
-		"color": "black",
+		"name": "test-text", 
+		"color": "white",
 		"font": ["open sans", "16px", "500"]
 	},
 	"Array": [0, 1 , "string", 3]
@@ -19,7 +19,7 @@ content-type: application/json
 
 
 ### PUT REQUEST
-PUT http://localhost:8080/api/1680486694773
+PUT http://localhost:8080/api/644b405067377e04b5e91286
 content-type: application/json
 
 {

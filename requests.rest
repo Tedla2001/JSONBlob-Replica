@@ -1,5 +1,5 @@
 ### GET REQUEST
-GET http://localhost:8080/api/1680486694773
+GET http://localhost:8080/api
 
 
 ### POST REQUEST
